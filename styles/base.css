@@ -75,6 +75,12 @@ img {
 .state div {
     text-align: center;
 }
+.state p {
+    padding: 1rem;
+}
+.state img {
+    border: 1px solid black;
+}
 .about {
     padding: 1rem;
 }
