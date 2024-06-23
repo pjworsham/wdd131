@@ -41,6 +41,7 @@ ul {
 main {
     max-width: 1000px;
     text-align: center;
+
 }
 
 figure {
@@ -93,13 +94,6 @@ ul.menuLinks.open {
     display: block;
 }
 
-
-
-
-
-
-
-
 footer {
     background-color: rgb(189, 114, 164);
     color: black;
@@ -109,3 +103,4 @@ footer {
     padding: 1rem;
     
 }
+
