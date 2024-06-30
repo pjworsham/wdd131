@@ -53,4 +53,10 @@ header {
     width: 100%;
     height: auto;
 }
+footer {
+    text-align: center;
+    background-color: rgb(14, 74, 131);
+    color: white;
+    padding: 10px;
+}
 
