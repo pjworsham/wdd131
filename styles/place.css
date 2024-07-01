@@ -1,5 +1,8 @@
 
-
+:root {
+    color: black;
+    background-color: rgb(218, 210, 207);
+}
 
 header {
     text-align: center;
