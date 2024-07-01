@@ -7,7 +7,6 @@
         <meta name="description" content="WDD 131 - Dynamic Web Fundamentals">
         <meta name="author" content="Pam Worsham"> 
         <link rel="stylesheet" href="styles/place.css">
-        <link rel="stylesheet" href="styles/place.med.css">
         <link rel="stylesheet" href="styles/place.large.css">
         <script src="scripts/place.js" defer></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,15 +18,18 @@
         <h1>Georgia</h1>
     </header>
     <main>
-        <div class="container"> 
-            <img src="images/hero-small-ga1.webp" alt="">    
+        <div class="hero"> 
+            <picture>
+                <source media="(min-width: 500px)" srcset="images/hero-large-ga1.webp">
+                <img src="images/hero-small-ga1.webp" alt="view"> 
+            </picture>  
         </div>
 
 
         <section id="data">
             <h2>Data</h2>
             <div>
-                <ul id="label">
+                <ul class="label">
                     <li>Area:</li>
                     <li>Population:</li>
                     <li>Capital:</li>
@@ -39,7 +41,7 @@
             </div>
 
             <div>
-                <ul id="value">
+                <ul class="value">
                     <li>57,701.1 sq. ml.</li>
                     <li>10.19 million</li>
                     <li>Atlanta</li>
@@ -56,7 +58,7 @@
             <img src="images/Weather.webp" alt="cloud">
 
             <div>
-                <ul id="label">
+                <ul class="label">
                     <li>Temperature:</li>
                     <li>Conditions:</li>
                     <li>Wind:</li>
@@ -66,10 +68,10 @@
             </div>
     
             <div>
-                <ul id="value">
-                    <li id="temp"></li>
-                    <li id="cond"></li></li>
-                    <li id="wind"></li>
+                <ul class="value">
+                    <li>95&deg;F</li>
+                    <li>Sunny</li>
+                    <li>10 mph</li>
                     <li id="windChill"></li>
                 </ul>         
             </div>
