@@ -1,15 +1,14 @@
 
 :root {
-    color: rgb(14, 35, 105);
-    background-color: rgb(218, 210, 207);   
+    --primaryColor:  rgb(9, 64, 116);
+    --borderBottom: 1rem solid rgb(255, 196, 0);
+     
 }
-
-
 header {
     text-align: center;
     color: white;
-    background-color: rgb(9, 64, 116);
-    border-bottom: 1rem solid rgb(255, 196, 0);
+    background-color: var(--primaryColor);
+    border-bottom: var(--borderBottom);
 
     padding: .5rem;
 }
