@@ -104,6 +104,10 @@ const newSelector = document.querySelector("#new");
 const large = document.querySelector("#large");
 const small = document.querySelector("#small");
 
+home.addEventListener("click", () => {
+    createTempleCard(temples);
+})
+
 old.addEventListener("click", () => {
     const oldArray = temples.filter((temple) => {
         let dedicatedYr = temple.dedicated.split(",");
@@ -111,6 +115,32 @@ old.addEventListener("click", () => {
     }) 
     createTempleCard(oldArray);
 })
+
+newSelector.addEventListener("click", () => {
+    const newArray = temples.filter((temple) => {
+        let dedicatedYr = temple.dedicated.split(",")
+        return dedicatedYr[0] > 2000;
+    })
+    createTempleCard(newArray);
+})
+
+large.addEventListener("click", () => {
+    const large = temples.filter((temple) => {
+        let area = temple.area
+        return area > 90000;
+    })
+    createTempleCard(large);
+})
+
+small.addEventListener("click", () => {
+    const small = temples.filter((temple) => {
+        let area = temple.area
+        return area < 10000;
+    })
+    createTempleCard(small);
+})
+
+
 
 createTempleCard(temples); 
 
