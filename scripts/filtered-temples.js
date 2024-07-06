@@ -103,9 +103,11 @@ const old = document.querySelector("#old");
 const newSelector = document.querySelector("#new");
 const large = document.querySelector("#large");
 const small = document.querySelector("#small");
+const pageTitle = document.querySelector("#pageTitle");
 
 home.addEventListener("click", () => {
     createTempleCard(temples);
+    pageTitle.innerHTML = "Home"
 })
 
 old.addEventListener("click", () => {
@@ -114,6 +116,8 @@ old.addEventListener("click", () => {
         return dedicatedYr[0] < 1900;
     }) 
     createTempleCard(oldArray);
+    pageTitle.innerHTML = "Old"
+    
 })
 
 newSelector.addEventListener("click", () => {
@@ -122,6 +126,7 @@ newSelector.addEventListener("click", () => {
         return dedicatedYr[0] > 2000;
     })
     createTempleCard(newArray);
+    pageTitle.innerHTML = "New"
 })
 
 large.addEventListener("click", () => {
@@ -130,6 +135,7 @@ large.addEventListener("click", () => {
         return area > 90000;
     })
     createTempleCard(large);
+    pageTitle.innerHTML = "Large"
 })
 
 small.addEventListener("click", () => {
@@ -138,6 +144,7 @@ small.addEventListener("click", () => {
         return area < 10000;
     })
     createTempleCard(small);
+    pageTitle.innerHTML = "Small"
 })
 
 
