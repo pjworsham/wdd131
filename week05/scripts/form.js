@@ -32,3 +32,15 @@ const products = [
         averagerating: 5.0
     }
   ];
+
+  const productDropDown = document.querySelector("#productDropDown")
+
+  products.forEach(product => {
+
+        const option = document.createElement("option")
+        option.setAttribute("value", product.name)
+        option.textContent = product.name
+        productDropDown.appendChild(option)
+  });
+
+
