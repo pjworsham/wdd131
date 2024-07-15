@@ -1,66 +1,70 @@
 
-h1 {
+header {
     background-color: rgb(69, 103, 134);
     text-align: center;
     color: white;
-    
-}
-
-.wk5 section {
-    padding: .5rem 2%;
-    background-color: #bdbfc7;
+    padding: .75rem;    
 }
 
 form {
     background-color: #bdbfc7 ;
 }
 
-.wk5 input[type="submit"] {
-    margin-left: 1.5rem;
-    margin-bottom: .5rem;
-    width: 100%;
-    max-width: 400px;
-    padding: .75rem;
-    background-color: rgb(178, 221, 217);
-    font-size: 15px;
-    box-shadow: 1px 1px 4px #999;
-    
-    
-}
-
-.wk5 input[type="checkbox"] {
-        padding: .5rem;
-    
-    
-}
-
-.wk5 div {
-    font-size: 1.2rem;
-}
-
 .wk5 select {
     padding: .75rem;
     width: 100%;
     max-width: 400px;
-
+    
+}
+.or, .pn, .date, .cbs {
+    display: grid;
+    padding: 1.25rem;
 }
 
+.wr {
+    display: grid;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+
 .wk5 input[type="date"] {
+    display: block;
+    width: 78.5%;
+    max-width: 400px;
+    padding: .75rem;
+    margin: 1.5rem 1% 2rem 1.5 ;
+}
+
+.wk5 input[type="checkbox"] {
+    padding: .5rem;
+    
+    
+}
+
+.cbs p {
+    margin-top: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.wk5 label [type="review"] {
     padding: .75rem;
     width: 100%;
     max-width: 400px;
-    font-size: 15px;
-    display: block;
 }
 
-.checkboxSection {
-    display: grid;
-}
 
-.or {
-    display: grid;
-}
 
+.wk5 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(rgb(122, 245, 245), rgb(87, 154, 185));
+    border-radius: 6px;
+    width: 100%;
+    max-width: 400px;
+    padding: .75rem;
+    font-size: 18px;      
+}
 
 footer {
     background-color: rgb(69, 103, 134);

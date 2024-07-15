@@ -1,67 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Forms</title>
-        <meta name="description" content="Forms | wdd131">
-        <meta name="author" content="Pam Worsham"> 
-        <link rel="stylesheet" href="styles/form.css">
-        <script src="scripts/form.js" defer></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <meta name="description" content="Forms | wdd131">
+    <meta name="author" content="Pam Worsham">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
 <body>
-    <main>
+    <header>
         <h1>Product Review</h1>
-            <form method="get" action="review.html" class="wk5">
-            <section>
-                <div class="pn">Product Name</div>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" class="wk5">
+            <div class="pn">Product Name
                 <label>
                     <select name="product" id="name" required>
                         <option value="">Select a Product</option>
                     </select>
                 </label>
-            </section>
+            </div>
 
-            <section class="or">
-                <div class="stars">Overall Rating</div>
+            <div class="or">Overall Rating
                 <label><input type="radio" name="audience" id="star1" required>⭐</label>
                 <label><input type="radio" name="audience" id="star2" required>⭐⭐</label>
                 <label><input type="radio" name="audience" id="star3" required>⭐⭐⭐</label>
                 <label><input type="radio" name="audience" id="star4" required>⭐⭐⭐⭐</label>
                 <label><input type="radio" name="audience" id="star5" required>⭐⭐⭐⭐⭐</label>
-            </section>
+            </div>
 
-            <section>
+            <div class="date">
                 <label>Date of Installation <input type="date" name="completeDate" id="date"></label>
-            </section>
+            </div>
 
-            <section class="checkboxSection">
-                <div class="useful">Which features did you find useful in the product?</div>
+            <section class="cbs">Which features did you find useful in the product?
                 <p>(Check all that apply)</p>
                 <label><input type="checkbox" name="durable" value="yes" id="du" required> Durability</label>
                 <label><input type="checkbox" name="ease" value="yes" id="ea" required> Ease of Use</label>
                 <label><input type="checkbox" name="proformance" value="yes" id="pro" required> Performance</label>
                 <label><input type="checkbox" name="design" value="yes" Id="de" required> Design</label>
-            </section>
+            </div>
 
-            <section>
-                <div class="wr">Written Review (Optional)</div>
-                <label></label><textarea name="review" id="review"></textarea></label>
+            <div class="wr">Written Review (Optional)
+                <label><textarea name="review" id="review"></textarea></label>
                 <div class="name">Your Name (Optional)</div>
-                <label></label><textarea name="name" id="name"></textarea></label>
-            </section>
-            
+                <label><textarea name="name" id="name"></textarea></label>
+            </div>
+
             <input type="submit" value="Post Review">
-           
-
-
-
-
-
-            </form>
+        </form>
 
     </main>
 
@@ -70,4 +66,5 @@
         <p id="lastModified"></p>
     </footer>
 </body>
+
 </html>
