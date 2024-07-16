@@ -31,16 +31,32 @@ const products = [
         name: "warp equalizer",
         averagerating: 5.0
     }
-  ];
+];
 
-  const productDropDown = document.querySelector("#productDropDown")
+const productDropDown = document.querySelector("#productDropDown")
 
-  products.forEach(product => {
-
+if (productDropDown) {
+    products.forEach(product => {
         const option = document.createElement("option")
         option.setAttribute("value", product.name)
         option.textContent = product.name
         productDropDown.appendChild(option)
-  });
+    });
+    
+    const postReview = document.querySelector("#postReview")
+    postReview.addEventListener("click", () => {
+        reviewCount++
+        localStorage.setItem("reviewCount", reviewCount)
+    })
+}
+
+
+let reviewCount = localStorage.getItem("reviewCount");
+
+const count = document.querySelector("#count")
+
+if (count) {
+    count.textContent = reviewCount
+}
 
 

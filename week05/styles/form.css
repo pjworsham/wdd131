@@ -19,14 +19,18 @@ form {
 .or, .pn, .date, .cbs {
     display: grid;
     padding: 1.25rem;
+    
 }
+.cbs, .or {
+    
+}
+
 
 .wr {
     display: grid;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
-
 
 .wk5 input[type="date"] {
     display: block;
