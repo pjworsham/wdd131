@@ -1,0 +1,79 @@
+/* This is for the hamburger icon */
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #403d3e;
+    cursor: pointer;
+    width: 44px;
+    text-align: right;
+    padding: .25rem 2vw;
+    padding-right: 1rem;
+    position: absolute;
+    top: 0;
+    right: 2vw;
+}
+
+#myButton::before {
+        content: "\2630"
+}
+
+ul.menuLinks li a {
+    display: block;
+    padding: .75rem 2vw;
+    color: #403d3e;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li.current-menu-item a {
+    background-color: #403d3e
+}
+
+ul.menuLinks {
+    display: none;
+    list-style-type: none; /*effects large */
+}
+
+/*CSS for the open class*/
+#myButton.open::before {
+    content: "x";
+}
+
+ul.menuLinks.open {
+    display: block;
+}
+header img {
+    padding-top: .4rem;
+    min-width: 100px;
+}
+header {
+    background-color: #bf8c6f;
+    display: block;
+    grid-gap: .5rem;
+    grid-template-columns: .3fr 2fr 4fr;
+    padding-left: 1rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+ul.menuLinks a:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+html {
+    background-color: #ebe5e5;
+}
+
+footer {
+    background-color: #bf8c6f;
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 1fr auto;
+    padding: 1rem;
+    font-size: 20px;
+}
+p {
+    background-color: #bf8c6f;
+}

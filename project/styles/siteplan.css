@@ -2,25 +2,25 @@
 
 :root {
  
-  --primary-color: #219ebc;
-  --secondary-color: #095880;
-  --accent1-color: #ffb703;
-  --accent2-color: #c47214;
-
+  --primary-color: #bf8c6f;
+  --secondary-color: #734226;
+  --accent1-color: #d9965b;
+  --accent2-color: #d8d4d4;
+  --accent3-color: #403d3e;
   
   --heading-font: "Roboto";
   --paragraph-font: Montserrat, sans-serif;
 
  
-  --headline-color-on-white: #095880;  
-  --headline-color-on-color: white; 
-  --paragraph-color-on-white: #219ebc;  
-  --paragraph-color-on-color: white; 
-  --paragraph-background-color: #095880  ;
-  --nav-link-color: white;
-  --nav-background-color: #c47214;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #c47214;
+  --headline-color-on-white: #403d3e;  
+  --headline-color-on-color: #f2f2f2; 
+  --paragraph-color-on-white: #d9965b;  
+  --paragraph-color-on-color: #f2f2f2; 
+  --paragraph-background-color: #734226  ;
+  --nav-link-color: #f2f2f2;
+  --nav-background-color: #d9965b;
+  --nav-hover-link-color: #f2f2f2;
+  --nav-hover-background-color: #bf8c6f;
 }
 
 body {
