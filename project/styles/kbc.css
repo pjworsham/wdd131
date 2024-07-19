@@ -49,7 +49,7 @@ header img {
     min-width: 100px;
 }
 header {
-    background-color: #bf8c6f;
+    background-color: #82a394;
     display: block;
     grid-gap: .5rem;
     grid-template-columns: .3fr 2fr 4fr;
@@ -63,12 +63,12 @@ ul.menuLinks a:hover {
 }
 
 html {
-    background-color: #ebe5e5;
+    background-color: #e5ebe9;
 }
 
 
 footer {
-    background-color: #bf8c6f;
+    background-color: #82a394;
     color: black;
     font-weight: 600;
     text-align: center;

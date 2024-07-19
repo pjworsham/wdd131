@@ -18,7 +18,7 @@
     }
 
     header {
-        background-color: #bf8c6f;
+        background-color: #82a394;
         display: grid;
         grid-gap: .5rem;
         grid-template-columns: .3fr 2fr 4fr;
