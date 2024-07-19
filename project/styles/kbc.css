@@ -66,14 +66,17 @@ html {
     background-color: #ebe5e5;
 }
 
+
 footer {
     background-color: #bf8c6f;
-    display: grid;
-    grid-gap: .2rem;
-    grid-template-columns: 1fr auto;
-    padding: 1rem;
+    color: black;
+    font-weight: 600;
+    text-align: center;
     font-size: 20px;
+    padding: 1rem;
+    
 }
+
 p {
     background-color: #bf8c6f;
 }
