@@ -15,30 +15,30 @@ hamburgerElement.addEventListener('click', () => {
     hamburgerElement.classList.toggle('open');
 });
 
-const dessert = [ {
-    dessertName: "Hummingbird Cake",
-    description: "Spiced pineapple-banana cake topped with cream cheese frosting and pecans.",
-    price: "$26"
-},
-{
-    dessertName: "Carrot Cake",
-    description: "Spiced flavor, super moist crumb, and velvety cream cheese frosting.",
-    price: "$25"   
-},
-{
-    dessertName: "Authentic German Chocolate Cake",
-    description: "Super moist, mild chocolate, and frosted with the most delectable Pecan Coconut Frosting.",
-    price: "$25"   
-}
-{
-    dessertName: "Strawberry Cake",
-    description: "Layers of strawberry flavored cake with strawberry flvored cream chesse frosting.",
-    price: "$26"   
-}
+// const dessert = [ {
+//     dessertName: "Hummingbird Cake",
+//     description: "Spiced pineapple-banana cake topped with cream cheese frosting and pecans.",
+//     price: "$26"
+// },
+// {
+//     dessertName: "Carrot Cake",
+//     description: "Spiced flavor, super moist crumb, and velvety cream cheese frosting.",
+//     price: "$25"   
+// },
+// {
+//     dessertName: "Authentic German Chocolate Cake",
+//     description: "Super moist, mild chocolate, and frosted with the most delectable Pecan Coconut Frosting.",
+//     price: "$25"   
+// }
+// {
+//     dessertName: "Strawberry Cake",
+//     description: "Layers of strawberry flavored cake with strawberry flvored cream chesse frosting.",
+//     price: "$26"   
+// }
    
 
 
 
 
 
-]
+// ]
