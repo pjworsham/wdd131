@@ -1,5 +1,37 @@
 @media only screen and (min-width: 38rem) {
+/******************************** 
+*
+*   Varables 
+*
+********************************/
+:root {
+ 
+    --primary-color: #82a394;
+    --secondary-color: #734226;
+    --accent1-color: #d9965b;
+    --accent2-color: #d8d4d4;
+    --accent3-color: #403d3e;
+    
+    --heading-font: "Roboto";
+    --paragraph-font: Montserrat, sans-serif;
+  
+   
+    --headline-color-on-white: #403d3e;  
+    --headline-color-on-color: #f2f2f2; 
+    --paragraph-color-on-white: #d9965b;  
+    --paragraph-color-on-color: #f2f2f2; 
+    --paragraph-background-color: #734226  ;
+    --nav-link-color: #f2f2f2;
+    --nav-background-color: #d9965b;
+    --nav-hover-link-color: #f2f2f2;
+    --nav-hover-background-color: #bf8c6f;
 
+    /**************************************
+
+                Hamburger button 
+
+     ***************************************/
+}
     #myButton {
         display: none;
     }
@@ -12,25 +44,30 @@
         background-color: rgba(255,255,255,0.2);
     }
 
-    .container {
-        display: flex;
-        flex-wrap: wrap;   
-    }
+   
+    /*********************************
+                Header 
+    **********************************/
 
     header {
         background-color: #82a394;
         display: grid;
         grid-gap: .5rem;
-        grid-template-columns: .3fr 2fr 4fr;
+        grid-template-columns: 100px 1fr 1fr;
+        grid-template-rows: 1fr;
         padding-left: 1rem;
         text-align: center;
         margin: 0 auto;
         
-        
-    
     }
 
-   
+    nav {
+        grid-column: initial;
+    }
+    .note {
+        text-align: justify;
+        margin-bottom: .3rem;
+    }
     
  
 }

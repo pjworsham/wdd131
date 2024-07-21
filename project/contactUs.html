@@ -15,47 +15,47 @@
 </head>
 <body>
     <header>
-        <img src="images/keithsburgLogo1 (1).webp" alt="">
+        <img src="images/keithsburgLogoA.webp" alt="">
         <h1>Keithsburg Cafe</h1>
         <nav>
             <!-- button id and menu links is for hamburger icon -->
             <button id="myButton" aria-label="button"></button>
             <ul class="menuLinks">
                 <li><a href="index.html" class="active" id="H">Home</a></li>
-                <li><a href="kbcB.html" title="rest2" id="B">Menu</a></li>
-                <li><a href="kbcL.html" title="rest3" id="L">Contact Us</a></li>
+                <li><a href="menu.html" title="rest2" id="B">Menu</a></li>
+                <li><a href="contactUs.html" title="rest3" id="L">Contact Us</a></li>
             </ul>
 
         </nav>
     </header>
     
     <main>
-        <title>Breakfast</title>
-        <div>
-            <p>Keithsburg Cafe</p>
-            <p>Welcome to Keithsburg Cafe, voted Best Breakfast for 2023. Breakfast and lunch all day until 2:00 PM. Come and enjoy our family friendly astosphere.</p>
-        </div>
-        <main class=" bkgrid">
-            <div class="bkf">
-                <img class="biscuits" scr="images" alt="biscuits">
-                <p></p>
+        <title>Contact Us</title>
+
+        <form method="get" action="review.html" class="item">
+            <div class="menu">Menu Item
+                <label>
+                    <select name="product" id="productDropDown" required>
+                        <option value="">Select a Item</option>
+                    </select>
+                </label>
             </div>
 
-            <div class="bkf1">
-                <img class="pancakes" src="images/" alt="pancakes">
-                <p></p>
+            <div class="or">
+                <p id="rating">Overall Rating</p>
+                <label><input type="radio" name="audience" id="star1" required>⭐</label>
+                <label><input type="radio" name="audience" id="star2" required>⭐⭐</label>
+                <label><input type="radio" name="audience" id="star3" required>⭐⭐⭐</label>
+                <label><input type="radio" name="audience" id="star4" required>⭐⭐⭐⭐</label>
+                <label><input type="radio" name="audience" id="star5" required>⭐⭐⭐⭐⭐</label>
             </div>
 
-            <div class="bkf2">
-                <img class="gravy" src="images/" alt="gravy">
-                <p></p>
+            <div class="wr">Written Review (Optional)
+                <label><textarea name="review" id="review"></textarea></label>     
             </div>
-                
-            <!-- <div id="background">
-            </div> 
-            <img class="logo" src="images/"  alt="logo"> -->
-           
 
+            <input id="postReview" type="submit" value="Post Review">
+        </form>
     </main>
 
 
