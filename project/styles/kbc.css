@@ -209,6 +209,8 @@ footer {
 }
 
 .wr {
+    display: grid;
+    padding-bottom: 1.5rem;
     font-weight: 600;
 }
 
@@ -222,7 +224,18 @@ footer {
     max-width: 400px;
     padding: .50rem;
     font-size: 18px;
-       
+    margin-bottom: 1rem;      
+}
+.contact-us {
+    display: grid;
+}
+
+.contact-us h1 {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
 }
 /************************
           Menu Page
@@ -243,4 +256,8 @@ footer {
     font-weight: 600;
     font-size: 1.5rem;
     color: #d9965b;
+}
+
+.menu-page h1 {
+    text-align: center;
 }
