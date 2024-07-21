@@ -272,3 +272,10 @@ form {
 #menuList h2 {
     margin: 1rem;
 }
+/************************
+        Project Review Page
+**************************/
+.reviewPage{
+    font-size: 20px;
+    font-weight: 500;
+}
