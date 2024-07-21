@@ -64,15 +64,21 @@ const menu = [
 /************************
     Contact Us Page
 **************************/
-let count = localStorage.getItem("count");
+function getCount() {
+    return localStorage.getItem("count");
+}
+
+function addCount() {
+    count++
+    localStorage.setItem("count", count)
+
+}
+
+let count = getCount();
 
 const postReview = document.querySelector("#postReview")
 if (postReview) {
-    postReview.addEventListener("click", () => {
-        count++
-        localStorage.setItem("count", count)
-
-    });
+    postReview.addEventListener("click", addCount());
 }
 
 /************************
@@ -80,5 +86,5 @@ if (postReview) {
 **************************/
 const reviewCount = document.querySelector("#reviewCount")
 if (reviewCount) {
-    reviewCount.innerHTML = localStorage.getItem("count")
+    reviewCount.innerHTML = getCount();
 }
