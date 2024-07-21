@@ -68,9 +68,9 @@ ul.menuLinks li a {
     display: block;
     padding: .75rem 2vw;
     color: #403d3e;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 li.current-menu-item a {
@@ -121,6 +121,8 @@ nav {
 h1 {
     font-size: 1.75rem;
 }
+
+
 
 /******************************** 
 *
@@ -223,17 +225,22 @@ footer {
        
 }
 /************************
-          Menu 
+          Menu Page
 **************************/
+.menuitem {
+    margin: 1rem;
 
-.idem1 {
-    max-width: 15rem;
 }
 
-.idem2 {
-    max-width: 15rem;
+.menuitem img {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.idem3 {
-    max-width: 15rem;
+.opening p {
+    margin: 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #d9965b;
 }

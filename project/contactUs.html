@@ -15,28 +15,30 @@
 </head>
 <body>
     <header>
-        <img src="images/keithsburgLogoA.webp" alt="">
-        <h1>Keithsburg Cafe</h1>
+        <img src="images/keithsburgLogoA.webp" alt="logo" height="100" width="100">
+        <h1>Keithsburg<br> Cafe</h1>
         <nav>
             <!-- button id and menu links is for hamburger icon -->
             <button id="myButton" aria-label="button"></button>
             <ul class="menuLinks">
-                <li><a href="index.html" class="active" id="H">Home</a></li>
-                <li><a href="menu.html" title="rest2" id="B">Menu</a></li>
-                <li><a href="contactUs.html" title="rest3" id="L">Contact Us</a></li>
+                <li><a href="index.html" class="active" id="Home">Home</a></li>
+                <li><a href="menu.html" title="rest2" id="menu">Menu</a></li>
+                <li><a href="contactUs.html" title="rest3" id="cu">Contact Us</a></li>       
             </ul>
-
         </nav>
     </header>
     
     <main>
-        <title>Contact Us</title>
+        <h1>Contact Us</h1>
 
         <form method="get" action="review.html" class="item">
             <div class="menu">Menu Item
                 <label>
                     <select name="product" id="productDropDown" required>
                         <option value="">Select a Item</option>
+                        <option value="">Hot Fried Chicken</option>
+                        <option value="">Sandwich with Side</option>
+                        <option value="">Pulled Pork Plate with two Sides</option>
                     </select>
                 </label>
             </div>
@@ -50,8 +52,8 @@
                 <label><input type="radio" name="audience" id="star5" required>⭐⭐⭐⭐⭐</label>
             </div>
 
-            <div class="wr">Written Review (Optional)
-                <label><textarea name="review" id="review"></textarea></label>     
+            <div class="wr">
+                <label>Written Review (Optional)<textarea name="review" id="review"></textarea></label>     
             </div>
 
             <input id="postReview" type="submit" value="Post Review">

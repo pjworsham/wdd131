@@ -15,25 +15,25 @@ hamburgerElement.addEventListener('click', () => {
     hamburgerElement.classList.toggle('open');
 });
 
-// const dessert = [ {
-//     dessertName: "Hummingbird Cake",
-//     description: "Spiced pineapple-banana cake topped with cream cheese frosting and pecans.",
-//     price: "$26"
+// const menu = [ {
+//     menuName: "Honey Fried Chicken",
+//     description: "Honey Fried Chicken with two country sides.",
+//     price: "$10.95"
 // },
 // {
-//     dessertName: "Carrot Cake",
-//     description: "Spiced flavor, super moist crumb, and velvety cream cheese frosting.",
-//     price: "$25"   
+//     menuName: "Sandwich with one Side",
+//     description: "Sandwich of choice served with one side.",
+//     price: "$10.95"   
 // },
 // {
-//     dessertName: "Authentic German Chocolate Cake",
-//     description: "Super moist, mild chocolate, and frosted with the most delectable Pecan Coconut Frosting.",
-//     price: "$25"   
+//     menuName: "Slow Smoked Pulled Pork Plate",
+//     description: "Pulled pork plate with two sides.",
+//     price: "$12.95"   
 // }
 // {
-//     dessertName: "Strawberry Cake",
+//     menuName: "Strawberry Cake",
 //     description: "Layers of strawberry flavored cake with strawberry flvored cream chesse frosting.",
-//     price: "$26"   
+//     price: "$4.50"   
 // }
    
 

@@ -16,15 +16,7 @@
     --paragraph-font: Montserrat, sans-serif;
   
    
-    --headline-color-on-white: #403d3e;  
-    --headline-color-on-color: #f2f2f2; 
-    --paragraph-color-on-white: #d9965b;  
-    --paragraph-color-on-color: #f2f2f2; 
-    --paragraph-background-color: #734226  ;
-    --nav-link-color: #f2f2f2;
-    --nav-background-color: #d9965b;
-    --nav-hover-link-color: #f2f2f2;
-    --nav-hover-background-color: #bf8c6f;
+   
 
     /**************************************
 
@@ -67,7 +59,18 @@
     .note {
         text-align: justify;
         margin-bottom: .3rem;
+    } 
+    
+    /*************************
+             Menu Page 
+     ***************************/
+    .menuSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
- 
+   
+
 }
+
+
