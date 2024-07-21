@@ -16,7 +16,7 @@
 <body>
     <header>
         <img src="images/keithsburgLogoA.webp" alt="logo" height="100" width="100">
-        <h1>Keithsburg<br> Cafe</h1>
+        <h1>Keithsburg Cafe</h1>
         <nav>
             <!-- button id and menu links is for hamburger icon -->
             <button id="myButton" aria-label="button"></button>
@@ -31,9 +31,10 @@
     <main class="contact-us">
         <h1>Contact Us</h1>
 
-        <form method="get" action="review.html" class="item">
-            <div class="menu">Menu Item
+        <form method="get" action="projectReview.html" class="item">
+            <div class="menu">
                 <label>
+                    Menu Item
                     <select name="product" id="productDropDown" required>
                         <option value="">Select a Item</option>
                         <option value="">Hot Fried Chicken</option>
@@ -56,7 +57,7 @@
                 <label>Written Review (Optional)<textarea name="review" id="review"></textarea></label>     
             </div>
 
-            <input id="postReview" type="submit" value="Post Review">
+            <button id="postReview" type="submit">Post Review</button>
         </form>
     </main>
 

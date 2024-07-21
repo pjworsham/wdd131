@@ -69,7 +69,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     
-   
+    #heroMsg {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
 
 }
 

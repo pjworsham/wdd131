@@ -201,11 +201,12 @@ footer {
 /* Rating */
 .or {
     display: grid;
-    padding: 1.25rem;   
+    padding: 1.25rem;
 }
 
 #rating {
     font-weight: 600;
+
 }
 
 .wr {
@@ -216,7 +217,7 @@ footer {
 
 /* Submit button */
 
-.item input[type="submit"] {
+.item button {
     border: none;
     background-color: #c9b8ae;
     border-radius: 6px;
@@ -260,4 +261,14 @@ form {
 
 .menu-page h1 {
     text-align: center;
+}
+
+.itemSpecial {
+    border: 1px solid black;
+    margin: 1rem;
+    padding-left: 1rem;
+}
+
+#menuList h2 {
+    margin: 1rem;
 }
